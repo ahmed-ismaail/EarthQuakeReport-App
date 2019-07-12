@@ -49,5 +49,7 @@ the License.
 Screenshots
 -----------
 ![](Images/earthquake-report-image.png)
+
+
 ![](Images/no-internet-image.png)
 
