@@ -16,12 +16,6 @@ Pre-requisites
 - Android Build Tools v23.0.2
 - Android Support Repository v23.3.0
 
-Getting Started
----------------
-
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
-
 Support
 -------
 
@@ -50,3 +44,12 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
+
+
+Screenshots
+-----------
+![](Images/earthquake-report-image.png)
+
+
+![](Images/no-internet-image.png)
+
