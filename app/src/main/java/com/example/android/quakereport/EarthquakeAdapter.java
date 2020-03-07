@@ -11,14 +11,15 @@ import android.widget.TextView;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
-    List<Earthquake> mEarthquakes;
+    ArrayList<Earthquake> mEarthquakes;
 
-    public EarthquakeAdapter(Context context, List<Earthquake> earthquakes) {
+    public EarthquakeAdapter(Context context, ArrayList<Earthquake> earthquakes) {
         super(context,0,earthquakes);
 
         mEarthquakes = earthquakes;
@@ -69,7 +70,7 @@ class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
     }
 
     private String [] split(String string) {
-        String [] array = {};
+        String [] array ;
         if(string.contains("of")) {
             array = string.split("of");
             return array;

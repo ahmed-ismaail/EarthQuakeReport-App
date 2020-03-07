@@ -7,23 +7,49 @@ public class Earthquake {
 
     private String mLocation;
 
-    private Long mtime;
+    private Long mTime;
 
     private String mUrl;
 
-    public Earthquake(double magnitude,String location,String url,Long time){
-     mMagnitude = magnitude;
-     mLocation = location;
-     mUrl = url;
-     mtime = time;
+
+    public double getMagnitude() {
+        return mMagnitude;
     }
 
-    public double getMagnitude(){ return  mMagnitude; }
+    public void setMagnitude(double mMagnitude) {
+        this.mMagnitude = mMagnitude;
+    }
 
-    public String getLocation(){ return mLocation; }
+    public String getLocation() {
+        return mLocation;
+    }
 
-    public Long getTime(){ return  mtime; }
+    public void setLocation(String mLocation) {
+        this.mLocation = mLocation;
+    }
 
-    public String getUrl(){ return  mUrl; }
+    public Long getTime() {
+        return mTime;
+    }
+
+    public void setTime(Long mtime) {
+        this.mTime = mtime;
+    }
+
+    public String getUrl() {
+        return mUrl;
+    }
+
+    public void setUrl(String mUrl) {
+        this.mUrl = mUrl;
+    }
+
+//    public double getMagnitude(){ return  mMagnitude; }
+//
+//    public String getLocation(){ return mLocation; }
+//
+//    public Long getTime(){ return  mtime; }
+//
+//    public String getUrl(){ return  mUrl; }
 
 }
