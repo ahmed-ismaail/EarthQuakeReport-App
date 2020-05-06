@@ -48,8 +48,4 @@ the License.
 
 Screenshots
 -----------
-![](Images/earthquake-report.png)
-
-
-![](Images/no-internet-image.png)
-
+<img src="Images/earthquake-report.png" width="250"/> <img src="Images/no-internet-image.png" width="250"/>
